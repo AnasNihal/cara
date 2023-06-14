@@ -716,5 +716,18 @@ outline: none;
 footer .copyright{
   text-align: start;
 }
+  /* Signgle Product */
 
+ #prodetails{
+  display: flex;
+  flex-direction: column;
+ }
+ #prodetails .single-pro-img{
+  width: 100%;
+  margin-right: 0;
+ }
+ #prodetails .single-pro-details{
+  width: 100%;
+  padding-top: 30px;
+ }
 }
