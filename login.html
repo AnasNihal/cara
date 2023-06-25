@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAraShopee
+    </title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- font-awesome -->
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: #e3e6f3;">
+    
+    <section id="header">
+        <a href="#"><img src="img/logo.png" alt="logo"></a>
+        <div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="bar" class="fa-solid fa-bars"></i>
+        </div>
+    </section>
+    
+    <section id="login">
+        <div class="wrapper">
+            <span class="icon-close">
+                <i class="fa-sharp fa-solid fa-xmark"></i>
+            </span>
+            <div class="form-box login">
+                <h2>Login</h2>
+                <form action="#" id="form">
+                    <div class="input-box">
+                        <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                        <input type="email" id="username" required autocomplete="off">
+                        <label for="">Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><i class="fa-solid fa-lock"></i></span>
+                        <input type="password" id="password" required autocomplete="off">
+                        <label for="">password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label for=""><input type="checkbox" name="" id="">Remember Me</label>
+                        <a href="#">Forgot Password?</a>
+                    </div>
+                    <button type="submit" onclick="func(); run();" id="log-btn" class="btn">Login</button>
+                    <div class="log-register">
+                        <p>Dont Have an Account <a href="#" class="register-link">
+                             Register
+                        </a></p>
+                    </div>
+                </form>
+            </div>
+
+            <div class="form-box register">
+                <h2>Register</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><i class="fa-solid fa-user"></i></span>
+                        <input type="text" required autocomplete="off">
+                        <label for="">Username</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                        <input type="email" required autocomplete="off">
+                        <label for="">Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><i class="fa-solid fa-lock"></i></span>
+                        <input type="password" required autocomplete="off">
+                        <label for="">password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label for=""><input type="checkbox" name="" id="">I agree to your terms & Condition</label>
+                    </div>
+                    <button type="submit" class="btn">Register</button>
+                    <div class="log-register">
+                        <p>Already Have an Account <a href="#" class="login-link">
+                             login
+                        </a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+<script>
+
+</script>
+
+    <script src="app.js"></script>
+</body>
+</html>
