@@ -253,12 +253,15 @@ text-decoration: underline;
    align-items: center;
    justify-content: space-between;
    padding: 20px 80px;
-   background-color: #e3e6f3;
+   background-color: #f1efef;
    box-shadow: 0 5px 15px rgba(0,0,0,0.03);
    z-index: 999;
    position: sticky;
    top: 0;
    left: 0;
+}
+#header img{
+  width:100px;
 }
 #navbar{
   display: flex;
@@ -279,7 +282,7 @@ text-decoration: underline;
 }
 #navbar li a:hover,
 #navbar li a.active{
-  color: #088178;
+  color:#435B66;
 }
 #navbar li a.active::after,
 #navbar li a:hover::after{
@@ -301,10 +304,10 @@ align-items: center;
 /* Home Page */
 
 #hero{
-  background-image: url('img/hero4.png');
+  background-image: url('img/banner/main.jpg');
   height: 90vh;
   width: 100%;
-  background-position: top 25% right 0;
+  background-position: top 25% right 35%;
   background-size: cover;
   padding: 0 80px;
   display: flex;
@@ -316,12 +319,12 @@ align-items: center;
   padding :15px;
 }
 #hero h1{
-  color:#088178;
+  color:#435B66;
 }
 #hero button{
    background-image: url('img/button.png');
    background-color: transparent;
-   color:#088178;
+   color:#435B66;
    border: 0;
    padding:14px 80px 14px 65px;
    background-repeat: no-repeat;
@@ -356,7 +359,7 @@ align-items: center;
   padding: 9px 8px 6px 8px;
   line-height: 1;
   border-radius: 4px;
-  color: #088178;
+  color:#435B66;
   background-color: #fddde4;
 }
 #feature .fa-box:nth-child(2) h6{
@@ -419,7 +422,7 @@ align-items: center;
   padding-top: 7px;
   font-size: 15px;
   font-weight: 700;
-  color: #088178;
+  color:#435B66;
 }
 #product .pro .cart{
   width: 40px;
@@ -428,7 +431,7 @@ align-items: center;
   border-radius: 50px;
   background-color: #e8f6e8;
   
-  color: #088178;
+  color:#435B66;
   border: 1px solid #cce7d0;
   position: absolute;
   bottom: 20px;
@@ -467,7 +470,7 @@ align-items: center;
 }
 
 #banner button:hover{
-  background-color: #088178;
+  background-color:#435B66;
   color: #fff;
 }
 #sm-banner{
@@ -531,7 +534,7 @@ align-items: center;
   margin-bottom: 20px;
 }
 #banner3 .banner-box2{
-  background-image: url('img/banner/b4.jpg');
+  background-image: url('img/featured/012.jpg');
 }
 #banner3 .banner-box3{
   background-image: url('img/banner/b18.jpg');
@@ -539,7 +542,8 @@ align-items: center;
 #banner3 h2{
   color: #fff;
   font-weight: 900;
-  font-size: 20px;
+  font-size:15px;
+  line-height: 20px;
 }
 #banner3 h3{
   color: #ec544e;
@@ -587,7 +591,7 @@ align-items: center;
 }
 
 #newsletter button{
-  background-color: #088178;
+  background-color:#435B66;
   color: #fff;
   white-space: nowrap ;
   border-top-left-radius: 0;
@@ -607,6 +611,7 @@ footer .col{
 }
 footer .logo{
   margin-bottom: 30px;
+  width: 100px;
 }
 footer h4{
   font-size: 14px;
@@ -639,7 +644,7 @@ footer .instal img{
 }
 footer .follow i:hover,
 footer a:hover{ 
-  color: #088178;
+  color:#435B66;
 }
 
 footer .copyright{
@@ -670,7 +675,7 @@ footer .copyright{
 }
 #pagination a{
   text-decoration: none;
-  background-color: #088178;
+  background-color:#435B66;
   padding: 15px 20px;
   border-radius: 4px;
   color: #fff;
@@ -728,7 +733,7 @@ padding-top: 30px;
 outline: none; 
 }
 #prodetails .single-pro-details button{
-  background-color: #088178;
+  background-color:#435B66;
   color: white; 
 }
 #prodetails .single-pro-details span{
@@ -786,10 +791,10 @@ top: 4px;
 right: -60px;
 }
 #blog .blog-details a:hover{
-  color: #088178;
+  color:#435B66;
 }
 #blog .blog-details a:hover::after{
-  color: #088178;
+  color:#435B66;
 }
 #blog .blog-box h1{
   position: absolute;
@@ -900,7 +905,7 @@ right: -60px;
  border: 1px solid #e1e1e1;
 }
 #form-details form button{
-  background-color: #088178;
+  background-color:#435B66;
   color: #fff;
 }
 #form-details .people div{
@@ -1003,7 +1008,7 @@ right: -60px;
 }
 #coupon button,
 #subtotal button{
-  background-color: #088178;
+  background-color:#435B66;
   color: #fff;
   padding: 12px 20px;
 }
