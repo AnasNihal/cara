@@ -253,7 +253,7 @@ text-decoration: underline;
    align-items: center;
    justify-content: space-between;
    padding: 20px 80px;
-   background-color: #dadada;
+   background-color: #f1efef;
    box-shadow: 0 5px 15px rgba(0,0,0,0.03);
    z-index: 999;
    position: sticky;
@@ -304,7 +304,7 @@ align-items: center;
 /* Home Page */
 
 #hero{
-  background-image: url('img/banner/back.jpg');
+  background-image: url('img/banner/main.jpg');
   height: 90vh;
   width: 100%;
   background-position: top 25% right 35%;
@@ -611,6 +611,7 @@ footer .col{
 }
 footer .logo{
   margin-bottom: 30px;
+  width: 100px;
 }
 footer h4{
   font-size: 14px;
